@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+  <title>{{ title }} - {{ site.name }}</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="{{ excerpt }}" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link href="/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet">
+</head>
+
+<body>
+  {{> main-header }}
+
+  <main class="container">
+    <header>
+      <h1 class="">{{ title }}</h1>
+      {{#if date }}<em><time>{{ moment date format="DD MMMM YYYY" }}</time></em>{{/if}}
+      {{#if excerpt }}<p><strong>{{ excerpt }}</strong></p>{{/if}}
+    </header>
+
+    {{{ contents }}}
+  </main>
+</body>
