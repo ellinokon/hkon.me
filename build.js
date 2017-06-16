@@ -7,15 +7,15 @@ const markdownit = require('metalsmith-markdownit')
 const permalinks = require('metalsmith-permalinks')
 const sitemap = require('metalsmith-mapsite')
 
+const metadata = require('./metadata')
+
 handlebars.registerHelper('moment', require('helper-moment'));
 
+/**
+ * Build static website
+ */
 metalsmith(__dirname)
-  .metadata({
-    site: {
-      name: 'Håkon Ellingsen',
-      description: 'hkon.me is the personal website of Håkon Ellingsen.'
-    }
-  })
+  .metadata(metadata)
   .source('src/content')
   .destination('.build')
   .clean(true)
