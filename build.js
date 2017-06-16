@@ -1,11 +1,11 @@
-var metalsmith = require('metalsmith')
-var collections = require('metalsmith-collections')
-var drafts = require('metalsmith-drafts')
-var handlebars = require('handlebars')
-var layouts = require('metalsmith-layouts')
-var markdownit = require('metalsmith-markdownit')
-var permalinks = require('metalsmith-permalinks')
-var sitemap = require('metalsmith-mapsite')
+const metalsmith = require('metalsmith')
+const collections = require('metalsmith-collections')
+const drafts = require('metalsmith-drafts')
+const handlebars = require('handlebars')
+const layouts = require('metalsmith-layouts')
+const markdownit = require('metalsmith-markdownit')
+const permalinks = require('metalsmith-permalinks')
+const sitemap = require('metalsmith-mapsite')
 
 handlebars.registerHelper('moment', require('helper-moment'));
 
@@ -16,8 +16,8 @@ metalsmith(__dirname)
       description: 'hkon.me is the personal website of Håkon Ellingsen.'
     }
   })
-  .source('./src/content')
-  .destination('./build')
+  .source('src/content')
+  .destination('.build')
   .clean(true)
   .use(drafts())
   .use(collections({
@@ -32,8 +32,8 @@ metalsmith(__dirname)
   }))
   .use(layouts({
     engine: 'handlebars',
-    directory: './src/templates',
-    partials: './src/templates/partials',
+    directory: 'src/templates',
+    partials: 'src/templates/partials',
     pattern: '**/*.html',
     default: 'page.html',
   }))
