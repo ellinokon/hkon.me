@@ -1,0 +1,32 @@
+.header {
+  margin: var(--spacer2) 0 var(--spacer3) 0;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: var(--spacer1);
+  font-size: var(--size3);
+}
+
+.navList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: var(--font-sans);
+  font-size: var(--size2);
+}
+
+.navItem {
+  display: inline-block;
+  margin-right: var(--spacer2);
+}
+
+.navItem:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  margin: 0 0 var(--spacer2) 0;
+  font-size: var(--size2);
+  text-align: center;
+}
