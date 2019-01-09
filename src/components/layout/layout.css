@@ -40,12 +40,12 @@ html, body {
 }
 
 html {
-  font-size: 15px;
+  font-size: 16px;
 }
 
-@media screen and (min-width: 532px) {
+@media screen and (min-width: 568px) {
   html {
-    font-size: calc(15px + (26 - 15) * ((100vw - 532px) / (923 - 532)));
+    font-size: calc(16px + (26 - 16) * ((100vw - 568px) / (923 - 568)));
   }
 }
 
