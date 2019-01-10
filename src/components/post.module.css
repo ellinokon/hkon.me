@@ -1,7 +1,7 @@
 .postHeader {
-  margin: 0 calc(var(--spacer3) * -1);
+  margin: calc(var(--spacer2) * -1) calc(var(--spacer2) * -1) 0;
   margin-bottom: var(--spacer2);
-  padding: var(--spacer3);
+  padding: var(--spacer3) var(--spacer2);
   background: var(--color-light-gray);
   color: var(--color-black);
   font-size: var(--size2);
