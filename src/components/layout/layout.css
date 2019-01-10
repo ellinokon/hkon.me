@@ -63,12 +63,13 @@ body {
 
 a {
   color: var(--color-black);
-  text-decoration: underline var(--color-black);
+  text-decoration: underline;
 }
 
 a:hover {
   background: var(--color-black);
   color: var(--color-white);
+  text-decoration: none;
 }
 
 h1, h2, h3, h4 {
