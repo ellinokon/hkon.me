@@ -10,7 +10,6 @@ export default ({ data }) => {
   return (
     <Layout>
       <PostHeader {...post.frontmatter} />
-      {console.log(post)}
 
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
