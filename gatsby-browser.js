@@ -1,7 +1,9 @@
-import './src/styles/global.css'
+require('./src/styles/global.css')
 
-export const onRouteUpdate = () => {
-  if (typeof fathom === 'function') { // eslint-disable-line no-undef
-    fathom('trackPageview') // eslint-disable-line no-undef
+exports.onRouteUpdate = () => {
+  // eslint-disable-next-line no-undef
+  if (typeof fathom === 'function') {
+    // eslint-disable-next-line  no-undef
+    fathom('trackPageview')
   }
 }
