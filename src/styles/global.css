@@ -88,6 +88,11 @@ p {
   margin: 0 0 var(--spacer2) 0;
 }
 
+pre {
+  margin: 0 0 var(--spacer2) 0;
+  font-size: var(--size2);
+}
+
 section {
   margin-bottom: var(--spacer3);
 }
@@ -97,7 +102,8 @@ h1:last-child,
 h2:last-child,
 h3:last-child,
 h4:last-child,
-p:last-child {
+p:last-child,
+pre:last-child {
   margin-bottom: 0;
 }
 
