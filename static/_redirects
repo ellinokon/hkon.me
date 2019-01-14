@@ -1,0 +1,3 @@
+# Redirect default Netlify subdomain to primary domain
+https://hkonme.netlify.com/* https://hkon.me/:splat 301!
+https://master--hkonme.netlify.com/* https://hkon.me/:splat 301!
