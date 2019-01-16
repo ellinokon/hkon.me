@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://hkon.me',
     title: 'Håkon Ellingsen',
   },
   plugins: [
@@ -21,6 +22,7 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-sitemap',
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
