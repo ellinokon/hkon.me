@@ -10,7 +10,7 @@ export default ({ fields, frontmatter }) => (
 
       <p className={styles.snippetLead}>{frontmatter.lead}</p>
 
-      <time className={styles.date}>{frontmatter.date}</time>  &middot; {' '}
+      <time className={styles.date}>{frontmatter.date}</time> &middot; {' '}
       <span className={styles.more}>Read more &raquo;</span>
     </Link>
   </article>
