@@ -1,19 +1,20 @@
 .header {
+  grid-column: main;
   margin: var(--spacer2) 0 var(--spacer3) 0;
-  text-align: center;
 }
 
 .title {
+  display: inline-block;
   margin-bottom: var(--spacer1);
-  font-size: var(--size3);
+  font-size: var(--size1);
+  font-weight: 800;
 }
 
 .navList {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-family: var(--font-sans);
-  font-size: var(--size2);
+  font-size: var(--size1);
 }
 
 .navItem {
@@ -26,7 +27,7 @@
 }
 
 .footer {
-  margin: 0 0 var(--spacer2) 0;
-  font-size: var(--size2);
-  text-align: center;
+  grid-column: main;
+  margin: var(--spacer3) 0 var(--spacer2) 0;
+  font-size: var(--size1);
 }

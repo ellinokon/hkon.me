@@ -1,3 +1,4 @@
+require('./src/styles/font-inter.css')
 require('./src/styles/global.css')
 
 exports.onRouteUpdate = () => {

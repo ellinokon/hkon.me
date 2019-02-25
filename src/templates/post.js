@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
+import Main from '../components/main'
 import PostHeader from '../components/post-header'
 
 export default ({ data }) => {
@@ -9,9 +10,10 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <PostHeader {...post.frontmatter} />
-
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <Main>
+        <PostHeader {...post.frontmatter} />
+        <div dangerouslySetInnerHTML={{__html: post.html}} />
+      </Main>
     </Layout>
   )
 }

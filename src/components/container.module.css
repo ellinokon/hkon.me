@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  grid-template-columns:
+    minmax(0, calc(var(--spacer2) + ((100vw - 936px) / 936) / 0.0075))
+    [full-start] var(--spacer2)
+    [main-start] minmax(0, 32rem) [main-end]
+    var(--spacer2) [full-end]
+    auto;
+}

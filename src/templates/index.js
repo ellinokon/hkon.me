@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
+import Main from '../components/main'
 import PostSnippet from '../components/post-snippet'
 
 const Posts = ({ posts }) => posts.map(({ node }) => <PostSnippet {...node} />)
@@ -12,17 +13,19 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <section>
-        <h1>{page.frontmatter.title}</h1>
+      <Main>
+        <section>
+          <h1>{page.frontmatter.title}</h1>
 
-        <div dangerouslySetInnerHTML={{ __html: page.html }} />
-      </section>
+          <div dangerouslySetInnerHTML={{ __html: page.html }} />
+        </section>
 
-      <section>
-        <h2 id="blog">Blog</h2>
+        <section>
+          <h2 id="blog">Blog</h2>
 
-        <Posts posts={posts} />
-      </section>
+          <Posts posts={posts} />
+        </section>
+      </Main>
     </Layout>
   )
 }
@@ -48,6 +51,7 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+            lead
           }
         }
       }

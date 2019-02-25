@@ -19,6 +19,12 @@ module.exports = {
         path: `${__dirname}/assets`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-postcss',
+      options: {
+        postCssPlugins: [require('postcss-preset-env')({ stage: 0 })],
+      },
+    },
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',

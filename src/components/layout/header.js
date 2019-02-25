@@ -5,9 +5,7 @@ import styles from './layout.module.css'
 
 export default ({ siteTitle }) => (
   <header className={styles.header}>
-    <h1 className={styles.title}>
-      {siteTitle}
-    </h1>
+    <span className={styles.title}>{siteTitle}</span>
 
     <nav>
       <ul className={styles.navList}>
