@@ -22,7 +22,7 @@ Since my last update I have both started and finished reading the excellent
 Jason Fried and David Heinemeier Hansson. After having greatly enjoyed their
 previous work, _Rework_, I rightfully assumed that this too would be a treat.
 Finishing the book in just one and a half sitting speaks volumes for the
-quality, I my humble opinion.
+quality, in my humble opinion.
 
 The Basecamp founders message of calm and balanced work is supported by their
 essay style of writing. No fluff, just the message shoot straight across the
@@ -31,7 +31,7 @@ is plenty of wise nuggets from people who can walk the walk.
 
 The next book I am working on is [_Company of One_](https://ofone.co/). 1/4th
 ways through the book it's already looking like a winner. After being subscribed
-to Paul Jarvis' newsletter for a few years that comes as no suprise.
+to Paul Jarvis' newsletter for a few years that comes as no surprise.
 
 What did come as a surprise was the book _Bad Blood: Secrets and Lies in a
 Silicon Valley Startup_. I listened to it as an audiobook, and boy is it a
