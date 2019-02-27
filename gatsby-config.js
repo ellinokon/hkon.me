@@ -2,6 +2,9 @@ module.exports = {
   siteMetadata: {
     siteUrl: 'https://hkon.me',
     title: 'Håkon Ellingsen',
+    titleTemplate: '%s - Håkon Ellingsen',
+    description: 'A full-stack web developer who slings code, pushes pixels, and sometimes write.',
+    image: '',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

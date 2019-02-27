@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Main from '../components/main'
 import PostSnippet from '../components/post-snippet'
+import SEO from '../components/seo'
 
 const Posts = ({ posts }) => posts.map(({ node }) => <PostSnippet {...node} />)
 
@@ -13,6 +14,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
+      <SEO />
       <Main>
         <section>
           <h1>{page.frontmatter.title}</h1>

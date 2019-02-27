@@ -18,21 +18,11 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
-        />
-
-        <Container>
-          <Header siteTitle={data.site.siteMetadata.title} />
-          {children}
-          <Footer />
-        </Container>
-      </>
+      <Container>
+        <Header siteTitle={data.site.siteMetadata.title} />
+        {children}
+        <Footer />
+      </Container>
     )}
   />
 )
