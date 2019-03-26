@@ -111,7 +111,7 @@ p {
 pre[class*="language-"] {
   padding: var(--spacer1) !important;
   margin: 0 0 var(--spacer2) 0 !important;
-  background: white !important;
+  background: #fffcfa !important;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: var(--size1) !important;
   border: 1px solid #f6e2d9;
