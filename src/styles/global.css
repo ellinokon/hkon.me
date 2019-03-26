@@ -107,10 +107,23 @@ p {
   margin: 0 0 var(--spacer2) 0;
 }
 
-pre {
-  margin: 0 0 var(--spacer2) 0;
-  font-size: var(--size1);
+/* Code highlight override */
+pre[class*="language-"] {
+  margin: 0 0 var(--spacer2) 0 !important;
+  background: white !important;
+  font-size: var(--size1) !important;
+  border: 1px solid #f6e2d9;
+  border-radius: 2px !important;
   overflow-x: scroll;
+}
+
+/* Code highlight override */
+:not(pre) > code {
+  padding: 0 0.25em !important;
+  background: white !important;
+  font-size: var(--size1) !important;
+  border: 1px solid #f6e2d9;
+  border-radius: 2px !important;
 }
 
 section {
