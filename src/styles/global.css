@@ -117,6 +117,10 @@ pre[class*="language-"] {
   border: 1px solid #f6e2d9;
   border-radius: 2px !important;
   overflow-x: scroll;
+
+  &:last-child {
+    margin-bottom: 0 !important;
+  }
 }
 
 /* Code highlight override */
