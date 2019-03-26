@@ -109,6 +109,7 @@ p {
 
 /* Code highlight override */
 pre[class*="language-"] {
+  padding: var(--spacer1) !important;
   margin: 0 0 var(--spacer2) 0 !important;
   background: white !important;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
