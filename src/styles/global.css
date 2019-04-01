@@ -132,6 +132,7 @@ pre[class*="language-"] {
 :not(pre) > code {
   padding: 0 0.25em !important;
   background: #f9eae3 !important;
+  color: #773421;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: var(--size1) !important;
   border: 1px solid #f6e2d9;

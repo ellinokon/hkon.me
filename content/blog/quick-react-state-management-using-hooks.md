@@ -141,7 +141,7 @@ export default function App() {
 
 Using the `useStateStore` hook to grab our state, we can make a simple render of
 our initial todos. By using `dispatch` and our predefined action creators to set
-up some quick handlers, we can qickly test our store in the browser
+up some quick handlers, we can qickly test our store in the browser.
 
 ```js
 // todo-list.js

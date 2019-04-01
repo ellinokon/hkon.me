@@ -103,7 +103,7 @@ Upon visiting the newly installed instance of Fathom for the first time a
 prompt will be presented, asking for details on which domain to track. In my
 case I input `hkon.me`, and got this tracking code in return:
 
-```
+```js
 <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
 <script>
 (function(f, a, t, h, o, m){
